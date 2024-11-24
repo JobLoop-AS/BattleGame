@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Battle Game</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <!-- Player Section -->
+        <div class="character-box">
+            <h3>Hero</h3>
+            <div>HP: <span id="playerHealth">100</span>/100</div>
+            <div class="health-bar">
+                <div id="playerHealthBar" class="health-fill"></div>
+            </div>
+        </div>
+
+        <!-- Enemy Section -->
+        <div class="character-box">
+            <h3>Dragon</h3>
+            <div>HP: <span id="enemyHealth">120</span>/120</div>
+            <div class="health-bar">
+                <div id="enemyHealthBar" class="health-fill"></div>
+            </div>
+        </div>
+
+        <!-- Battle Controls -->
+        <div class="battle-buttons">
+            <button id="attackBtn">Attack</button>
+            <button id="healBtn">Heal</button>
+        </div>
+
+        <!-- Battle Log -->
+        <div id="battleLog" class="battle-log"></div>
+    </div>
+
+    <!-- Load scripts in order -->
+    <script src="js/Character.js"></script>
+    <script src="js/GameState.js"></script>
+    <script src="js/gameUI.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

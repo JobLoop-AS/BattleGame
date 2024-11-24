@@ -1,0 +1,43 @@
+.game-container {
+    width: 400px;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+}
+
+.character-box {
+    border: 2px solid #333;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.health-bar {
+    background: #ddd;
+    height: 20px;
+    margin: 5px 0;
+}
+
+.health-fill {
+    background: #4CAF50;
+    height: 100%;
+    width: 100%;
+    transition: width 0.3s;
+}
+
+.battle-buttons {
+    margin: 20px 0;
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 0 5px;
+    font-size: 16px;
+}
+
+.battle-log {
+    border: 1px solid #ddd;
+    padding: 10px;
+    height: 150px;
+    overflow-y: auto;
+    margin-top: 20px;
+}
